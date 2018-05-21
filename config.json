@@ -1,0 +1,42 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "zVintauge",
+    "owner": "Someone",
+    "description": "Collectible Vintage & Antique Photos",
+    "nav" : [
+             {
+               "name": "HOME",
+               "cssClass": "home",
+               "pikto": "a",
+               "description": "Home Page",
+               "url": "/"
+              },
+              {
+               "name": "CONTACT",
+               "cssClass": "contact",
+               "pikto": "@",
+               "description": "contact me",
+               "url": "/contact/"
+              }
+        ]
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 3
+  }
+}

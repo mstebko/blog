@@ -1,0 +1,37 @@
+
+extends layout
+
+block content
+  section#container
+    .wrap-container
+      section.content-box.box-1
+        .zerogrid
+          .wrap-box
+            .box-header
+              h2 ABOUT US
+            .box-content
+              p
+                | Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur Nulla 
+                br
+                | fringilla purus at leo dignissim congue. Mauris elementum accumsan leo vel tempor. Sit amet cursus nisl aliquam. 
+                br
+                | Aliquam et elit eu nunc rhoncus viverra quis at felis. Sed do
+      section.content-box.box-style-1.box-4
+        .zerogrid(style='width: 100%')
+          .wrap-box
+            each article in articles
+              .row
+                article
+                  section.content
+                    if article.intro.length > 0
+                      != typogr(article.intro).typogrify()  
+                    if article.hasMore
+                      p.more
+                        a.button(href=article.url) Read More
+  block prepend footer
+    div.links
+      if prevPage
+        a(href=prevPage.url) &laquo; Newer
+      if nextPage
+        a(href=nextPage.url) Next page &raquo;
+
