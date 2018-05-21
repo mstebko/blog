@@ -1,6 +1,6 @@
 ---
 title: README
-author: Petrovich
+author: Petrovich1
 date: 2018-10-10
 template: article.jade
 ---
