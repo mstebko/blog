@@ -1,6 +1,6 @@
 ---
 title: README
-author: Petrovich1
+author: admin
 date: 2018-10-10
 template: article.jade
 ---
@@ -14,9 +14,8 @@ template: article.jade
 <h3 class='article-heading'>
 The title on the article  
 </h3>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus.consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia.
-
+<br>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus.consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia.</p>
 <span class="more"></span>
 </div>
 

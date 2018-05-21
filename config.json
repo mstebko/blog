@@ -1,9 +1,9 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "zVintauge",
+    "name": "MyBlog",
     "owner": "Someone",
-    "description": "Collectible Vintage & Antique Photos",
+    "description": "Useful articles & tips",
     "nav" : [
              {
                "name": "HOME",

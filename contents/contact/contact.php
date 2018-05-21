@@ -1,5 +1,4 @@
 <?php
-// Free html5 templates : https://www.zerotheme.com
 
 $text = "<span style='color:red; font-size: 35px; line-height: 40px; magin: 10px;'>Error! Please try again.</span>";
 
