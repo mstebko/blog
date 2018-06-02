@@ -6,9 +6,9 @@ template: article.jade
 ---
 
 
-<div class="col-1-2 article-col">![](slide3.jpg)</div>
+<div class="col-12 article-col">![](slide3.jpg)</div>
 
-<div class="col-1-2 article-col">
+<div class="col-12 article-col article-descr">
 
 <div class="entry-content t-center">
 <h3 class='article-heading'>

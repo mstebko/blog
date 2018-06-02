@@ -20,14 +20,13 @@ block content
         .zerogrid(style='width: 100%')
           .wrap-box
             each article in articles
-              .row
-                article
-                  section.content
-                    if article.intro.length > 0
-                      != typogr(article.intro).typogrify()  
-                    if article.hasMore
-                      p.more
-                        a.button(href=article.url) Read More
+              article
+                .row
+                  if article.intro.length > 0
+                    != typogr(article.intro).typogrify()  
+                  if article.hasMore
+                    p.more
+                      a.button(href=article.url) Read More
   block prepend footer
     div.links
       if prevPage
