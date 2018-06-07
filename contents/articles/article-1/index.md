@@ -14,7 +14,7 @@ template: article.jade
 The title on the article  
 </h3>
 <br>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus.consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia.</p>
+<p>Первая</p>
 <span class="more"></span>
 </div>
 
