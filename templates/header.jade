@@ -1,0 +1,15 @@
+header.header
+  div.content-wrap
+    block header
+      div.logo
+        h1
+          a(href="http://mer.si")= locals.name
+        p.description= locals.description
+      #cssmenu.align-center
+        #menu-button Menu
+        ul.piktonav.nine.columns
+          each item in locals.nav
+            li
+              a(href!= item.url)
+                span.pikto 
+                span.txt!= item.name

@@ -2,7 +2,7 @@
   "locals": {
     "url": "http://localhost:8080",
     "name": "MyBlog",
-    "owner": "Someone",
+    "owner": "Maria Stebko",
     "description": "Useful articles & tips",
     "nav" : [
              {
