@@ -1,12 +1,11 @@
 ---
 title: Why plant protein is better for you than animal protein
 author: admin
-date: 2018-01-02
+date: 2018-01-05
 template: article.jade
 ---
 
-
-<div class="col-12 article-col order-1">![](slide2.jpg)</div>
+<div class="col-12 article-col">![](slide1.jpg)</div>
 
 <div class="col-12 article-col article-descr">
 

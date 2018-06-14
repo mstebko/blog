@@ -1,7 +1,7 @@
 ---
 title: These free apps will help you type faster
 author: admin
-date: 2018-01-04
+date: 2018-01-07
 template: article.jade
 ---
 
